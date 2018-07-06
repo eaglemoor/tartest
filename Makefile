@@ -5,4 +5,4 @@ run: build
 	docker run --rm -it --name tartest -p 3301:3301 tartest
 
 test:
-	busted test.lua --verbose -c
+	tarantool test.lua
